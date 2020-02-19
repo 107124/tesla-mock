@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0px;
+}
+
+.car {
+  width: 100%;
+  position: relative;
+  animation: fadeInLeft 3s;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 20px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  animation: mymove 3s;
+}
+
+@keyframes mymove {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.link {
+  margin: 0px 25px;
+  font-weight: 20;
+  font-size: 15px;
+  transition: ease-in-out 0.2s;
+}
+
+.link:hover {
+  color: gray;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 1.5s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
