@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 .App {
   font-family: sans-serif;
   text-align: center;
   margin: 0px;
   color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -11,6 +14,11 @@ html {
 
 body {
   margin: 0px;
+}
+
+.car-image {
+  position: relative;
+  text-align: center;
 }
 
 .car {
@@ -22,11 +30,50 @@ body {
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.418);
+  /* background-color: rgba(0, 0, 0, 0.295); */
   padding: 20px;
+  font-weight: 500;
+  font-size: 3em;
+  text-align: left;
+}
+
+.one {
+  top: 10%;
+  left: 73%;
+  animation: mymove2 3s;
+  width: 200px;
+}
+
+.two {
+  top: 15%;
+  left: 30%;
+  animation: mymove2 3s;
+  width: 200px;
+}
+
+.three {
+  top: 15%;
+  left: 75%;
+  animation: mymove2 3s;
+  width: 200px;
+}
+
+.four {
+  top: 25%;
+  left: 98%;
+  animation: mymove2 3s;
+  width: 2000px;
+  font-size: 2.5em;
+}
+
+.five {
+  top: 25%;
+  left: 70%;
+  animation: mymove2 3s;
+  width: 200px;
 }
 
 .top-right {
@@ -54,6 +101,17 @@ body {
   }
   to {
     top: 0px;
+  }
+}
+
+@keyframes mymove2 {
+  from {
+    left: 50%;
+    opacity: 0;
+  }
+  to {
+    right: 73%;
+    opacity: 1;
   }
 }
 
