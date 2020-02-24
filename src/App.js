@@ -67,10 +67,10 @@ export default function App() {
             <div className="centered five">Free Unlimited Supercharging</div>
           </FadeInSection>
         </div>
+        <FadeInSection>
+          <Footer />
+        </FadeInSection>
       </div>
-      <FadeInSection>
-        <Footer />
-      </FadeInSection>
     </div>
   );
 }
