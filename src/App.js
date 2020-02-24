@@ -7,6 +7,8 @@ import Footer from "./footer";
 
 import "./styles.css";
 import "./media-queries.css";
+import Logo from "./images/tesla-logo.png";
+import Hamburger from "./hamburger";
 
 export default function App() {
   return (
@@ -16,9 +18,14 @@ export default function App() {
       </FadeInSection>
 
       <div className="car-container">
+        <div className="burger-container">
+          <Hamburger />
+          <img src={Logo} alt="" className="hamburger-logo" />
+        </div>
         <div className="car-image">
           <FadeInSection>
             <img src={RedCar} className="car" alt="" />
+
             <div className="centered one">Model 3</div>
           </FadeInSection>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link, Route, Switch, BrowserRouter } from "react-router";
+import Hamburger from "./hamburger";
 
 import Logo from "./images/tesla-logo.png";
 
@@ -7,6 +7,8 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="left-side">
+        {/* <Hamburger /> */}
+
         <img src={Logo} className="logo" alt="Tesla Logo" />
       </div>
       <div className="center">
