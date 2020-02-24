@@ -21,6 +21,7 @@ export default function App() {
         <div className="burger-container">
           <Hamburger />
           <img src={Logo} alt="" className="hamburger-logo" />
+          <p>Mockup</p>
         </div>
 
         <div className="car-image">

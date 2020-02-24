@@ -6,8 +6,8 @@ export default function Navbar() {
     <div className="navbar-container">
       <div className="left-side">
         {/* <Hamburger /> */}
-
         <img src={Logo} className="logo" alt="Tesla Logo" />
+        <p>Mockup</p>
       </div>
       <div className="center">
         <div to="./modelS.js" className="link">
