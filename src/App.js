@@ -3,8 +3,10 @@ import RedCar from "./images/red-model3.jpg";
 import WhiteCar from "./images/white-car.jpg";
 import Navbar from "./navbar.js";
 import FadeInSection from "./FadeInSection";
+import Footer from "./footer";
 
 import "./styles.css";
+import "./media-queries.css";
 
 export default function App() {
   return (
@@ -59,6 +61,7 @@ export default function App() {
           </FadeInSection>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

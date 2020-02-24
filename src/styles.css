@@ -16,6 +16,28 @@ body {
   margin: 0px;
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin: 0px 25px;
+  font-weight: 20;
+  font-size: 20px;
+  transition: ease-in-out 0.2s;
+  color: lightcyan;
+}
+
+.link:hover {
+  color: gray;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 42px;
+}
+
 .car-image {
   position: relative;
   text-align: center;
@@ -24,7 +46,7 @@ body {
 .car {
   width: 100%;
   position: relative;
-  animation: fadeInLeft 3s;
+  animation: fadeInLeft 5s;
 }
 
 /* Centered text */
@@ -82,11 +104,6 @@ body {
   right: 16px;
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .center {
   display: flex;
   align-items: center;
@@ -115,31 +132,22 @@ body {
   }
 }
 
-.link {
-  margin: 0px 25px;
-  font-weight: 20;
-  font-size: 15px;
-  transition: ease-in-out 0.2s;
-}
-
-.link:hover {
-  color: gray;
-}
-
-.logo {
-  width: 100px;
-  margin-left: 20px;
-}
-
 .fade-in-section {
   opacity: 0;
   transform: translateY(10vh);
   visibility: hidden;
-  transition: opacity 1s ease-out, transform 1.5s ease-out;
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
   will-change: opacity, visibility;
 }
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+/* footer */
+
+.footer-container {
+  color: gray;
+  font-size: 12px;
 }

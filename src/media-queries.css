@@ -1,0 +1,155 @@
+@media (max-width: 615px) {
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+  /* homepage */
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  html {
+    background-color: black;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  .car-image {
+    position: relative;
+    text-align: center;
+  }
+
+  .car {
+    width: 100%;
+    position: relative;
+    animation: fadeInLeft 5s;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.295); */
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .one {
+    top: 9% !important;
+    left: 96% !important;
+    animation: mymove2 3s;
+    width: 200px;
+  }
+
+  .two {
+    top: 15% !important;
+    left: 53%;
+    animation: mymove2 3s;
+    width: 200px;
+  }
+
+  .three {
+    top: 20% !important;
+    left: 75% !important;
+    animation: mymove2 3s;
+    width: 200px;
+  }
+
+  .four {
+    top: 23% !important;
+    left: 57% !important;
+    animation: mymove2 3s;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .five {
+    top: 21% !important;
+    left: 84% !important;
+    animation: mymove2 3s;
+    width: 200px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  @keyframes mymove {
+    from {
+      top: -50px;
+    }
+    to {
+      top: 0px;
+    }
+  }
+
+  @keyframes mymove2 {
+    from {
+      left: 50%;
+      opacity: 0;
+    }
+    to {
+      right: 73%;
+      opacity: 1;
+    }
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(10vh);
+    visibility: hidden;
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  /* Navbar */
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: 0px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    animation: mymove 3s;
+  }
+
+  .link {
+    margin: 10px 25px;
+    font-weight: 20;
+    font-size: 20px;
+    transition: ease-in-out 0.2s;
+    color: lightcyan;
+  }
+
+  .link:hover {
+    color: gray;
+  }
+}
