@@ -9,7 +9,7 @@
     margin: 0px;
     color: white;
     font-family: "Roboto", sans-serif;
-    height: 100%;
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
@@ -177,7 +177,7 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-    margin: 10px 0px;
+    margin: 27px 0px;
   }
 
   .menuToggle input {
