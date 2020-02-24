@@ -61,7 +61,9 @@ export default function App() {
           </FadeInSection>
         </div>
       </div>
-      <Footer />
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </div>
   );
 }
