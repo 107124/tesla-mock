@@ -1,6 +1,4 @@
 import React from "react";
-import Hamburger from "./hamburger";
-
 import Logo from "./images/tesla-logo.png";
 
 export default function Navbar() {

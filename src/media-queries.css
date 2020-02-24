@@ -166,6 +166,7 @@
   }
 
   .hamburger-logo {
+    display: block;
     width: 80px;
     margin-left: 95px;
     filter: brightness(175%);

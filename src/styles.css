@@ -158,6 +158,13 @@ body {
 
 /* hamburger */
 
+.hamburger-logo {
+  display: none;
+  width: 80px;
+  margin-left: 95px;
+  filter: brightness(175%);
+}
+
 .menuToggle {
   display: none;
   position: relative;

@@ -1,9 +1,6 @@
 import React from "react";
 
 export default class Hamburger extends React.Component {
-  constructor() {
-    super();
-  }
   //this.stuff = this.stuff.bind(this);
   render() {
     return (
