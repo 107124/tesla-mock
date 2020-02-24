@@ -22,6 +22,7 @@ export default function App() {
           <Hamburger />
           <img src={Logo} alt="" className="hamburger-logo" />
         </div>
+
         <div className="car-image">
           <FadeInSection>
             <img src={RedCar} className="car" alt="" />
