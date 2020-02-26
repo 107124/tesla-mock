@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Logo from "./images/tesla-logo.png";
 
 export default function Navbar() {
@@ -6,16 +7,24 @@ export default function Navbar() {
     <div className="navbar-container">
       <div className="left-side">
         {/* <Hamburger /> */}
-        <img src={Logo} className="logo" alt="Tesla Logo" />
+        <NavLink exact to="/" activeClassName="nav-link-active">
+          <img src={Logo} className="logo" alt="Tesla Logo" />
+        </NavLink>
         <p>Mockup</p>
       </div>
       <div className="center">
-        <div to="./modelS.js" className="link">
+        <NavLink to="/models" className="link">
           MODEL S
-        </div>
-        <div className="link">MODEL 3</div>
-        <div className="link">MODEL X</div>
-        <div className="link">MODEL Y</div>
+        </NavLink>
+        <NavLink to="/model3" className="link">
+          MODEL 3
+        </NavLink>
+        <NavLink to="/modelx" className="link">
+          MODEL X
+        </NavLink>
+        <NavLink to="/modely" className="link">
+          MODEL Y
+        </NavLink>
       </div>
 
       <div className="right-side" />

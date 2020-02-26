@@ -184,7 +184,7 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
-    margin: 27px 0px;
+    margin: 27px -11px;
   }
 
   .menuToggle input {

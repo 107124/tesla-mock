@@ -4,7 +4,7 @@ import Hamburger from "./hamburger";
 import Navbar from "./navbar";
 import Logo from "./images/tesla-logo.png";
 
-export default function ModelS() {
+export default function ModelX() {
   return (
     <div className="model-s-continer">
       <Navbar />
@@ -14,7 +14,7 @@ export default function ModelS() {
         <p>Mockup</p>
       </div>
 
-      <h1>Model S page</h1>
+      <h1>Model X page</h1>
     </div>
   );
 }
