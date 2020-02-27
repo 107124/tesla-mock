@@ -1,4 +1,4 @@
-@media (max-width: 615px) {
+@media (max-width: 737px) {
   @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
   /* homepage */
@@ -139,7 +139,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
     position: relative;
     animation: mymove 3s;
   }
@@ -194,7 +193,6 @@
     position: absolute;
     top: -7px;
     left: -5px;
-    cursor: pointer;
     opacity: 0;
     z-index: 2;
     -webkit-touch-callout: none;
@@ -255,7 +253,6 @@
   }
 
   .line {
-    color: white;
     height: 42px;
     transform: rotate(-45deg);
   }
@@ -264,23 +261,20 @@
     margin: 0px;
     outline: none;
     padding: 10px;
-    width: 100%;
+    width: 93%;
     color: white;
     background-color: transparent;
-    border: 1px solid white;
     border-right: none;
     border-radius: 0px;
     font-size: 1.2em;
     transition: 0.2s ease-in-out;
-    cursor: pointer;
   }
 
   .letter-button:hover {
     outline: none;
-    width: 100%;
+    width: 93%;
     color: white;
-    background: gray;
-    border: 1px solid white;
+    background: rgba(128, 128, 128, 0.589);
     font-size: 1.2em;
     margin: 0px;
   }
@@ -292,5 +286,12 @@
 
   .menuToggle input:checked ~ ul {
     transform: none;
+  }
+
+  /* ModelS page */
+  .group1 {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
   }
 }

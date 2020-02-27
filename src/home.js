@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import RedCar from "./images/red-model3.jpg";
 import WhiteCar from "./images/white-car.jpg";
 import Navbar from "./navbar.js";
 import FadeInSection from "./FadeInSection";
-import Footer from "./footer";
 
 import "./styles.css";
 import "./media-queries.css";
@@ -71,9 +69,6 @@ export default function Homepage() {
             <div className="centered five">Free Unlimited Supercharging</div>
           </FadeInSection>
         </div>
-        <FadeInSection>
-          <Footer />
-        </FadeInSection>
       </div>
     </div>
   );

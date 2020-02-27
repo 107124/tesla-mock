@@ -1,10 +1,13 @@
 import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 import HomePage from "./home";
 import ModelS from "./modelS";
 import Model3 from "./model3";
 import ModelX from "./modelX";
 import ModelY from "./modelY";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Footer from "./footer";
+import FadeInSection from "./FadeInSection";
 
 import "./styles.css";
 import "./media-queries.css";
@@ -21,6 +24,9 @@ export default function App() {
           <Route path="/modely" component={ModelY} />
         </Switch>
       </BrowserRouter>
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </div>
   );
 }

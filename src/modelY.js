@@ -1,5 +1,6 @@
 import React from "react";
 
+import FadeInSection from "./FadeInSection";
 import Navbar from "./navbar";
 import Hamburger from "./hamburger";
 import Logo from "./images/tesla-logo.png";

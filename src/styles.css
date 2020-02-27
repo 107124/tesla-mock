@@ -80,7 +80,7 @@ body {
   top: 10%;
   left: 73%;
   animation: mymove2 3s;
-  width: 200px;
+  width: 230px;
 }
 
 .two {
@@ -118,10 +118,24 @@ body {
   right: 16px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+}
+
 .center {
   display: flex;
   align-items: center;
-  cursor: pointer;
   position: relative;
   animation: mymove 3s;
 }
@@ -294,4 +308,39 @@ body {
 
 .menuToggle input:checked ~ ul {
   transform: none;
+}
+
+/* ModelS page */
+
+.group1 {
+  display: flex;
+  width: 100vw;
+}
+
+.modelS {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0, 0, 0, 0.295); */
+  padding: 20px;
+  font-weight: 500;
+  font-size: 3em;
+  text-align: left;
+}
+
+.car1 {
+  top: 9%;
+  left: 40%;
+  animation: mymove2 3s;
+  width: 300px;
+}
+
+.car2 {
+  top: 56%;
+  left: 74%;
+  animation: mymove2 3s;
+  width: 300px;
+  text-align: center;
+  transform: rotate(+10deg);
 }
