@@ -27,15 +27,15 @@ export default function ModelS() {
           />
         </FadeInSection>
 
-        <div className="modelS car1">MODEL S</div>
         <FadeInSection>
+          <div className="modelS car1">MODEL S</div>
           <img
             src="https://images.unsplash.com/photo-1569919827715-5c0d1e95f833?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
             className="car"
             alt=""
           />
-          <div className="modelS car2">Up to 390 miles</div>
         </FadeInSection>
+        <div className="modelS car2">Up to 390 miles</div>
       </div>
       <div className="car-image group2">
         <FadeInSection>

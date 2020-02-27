@@ -294,4 +294,20 @@
     width: 100vw;
     flex-direction: column;
   }
+
+  .car1 {
+    top: 7%;
+    left: 77%;
+    animation: mymove2 3s;
+    width: 300px;
+  }
+
+  .car2 {
+    top: 77%;
+    left: 38%;
+    animation: mymove2 3s;
+    width: 300px;
+    text-align: center;
+    transform: rotate(+10deg);
+  }
 }
