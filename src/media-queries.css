@@ -303,11 +303,13 @@
   }
 
   .car2 {
-    top: 77%;
-    left: 38%;
+    font-size: 28px;
+    top: 78%;
+    left: 25%;
     animation: mymove2 3s;
     width: 300px;
     text-align: center;
     transform: rotate(+10deg);
+    margin-right: 42px;
   }
 }

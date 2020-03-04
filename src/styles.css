@@ -87,7 +87,7 @@ body {
   top: 15%;
   left: 30%;
   animation: mymove2 3s;
-  width: 200px;
+  width: 300px;
 }
 
 .three {
@@ -314,6 +314,7 @@ body {
 
 .group1 {
   display: flex;
+  justify-content: center;
   width: 100vw;
 }
 
@@ -343,4 +344,5 @@ body {
   width: 300px;
   text-align: center;
   transform: rotate(+10deg);
+  margin-right: 42px;
 }
